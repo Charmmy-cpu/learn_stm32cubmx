@@ -100,6 +100,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_GPIO_TogglePin(led_shan_GPIO_Port, led_shan_Pin);  /* 翻转 LED 灯状态 */
+    HAL_Delay(500);  /* 延时 500ms */
     /* 20ms 超时轮询：没有数据也不会卡死，主循环能继续跑 */
     if (HAL_UART_Receive(&huart1, uart1_rx_buffer, 1, 20) == HAL_OK)
     {

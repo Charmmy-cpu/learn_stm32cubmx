@@ -1,7 +1,8 @@
-﻿{
+{
   "configurations": [
     {
       "name": "STM32F103C8",
+      "compilerPath": "D:/dev c++/Dev-Cpp/MinGW64/bin/gcc.exe",
       "includePath": [
         "${workspaceFolder}/Core/Inc",
         "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
