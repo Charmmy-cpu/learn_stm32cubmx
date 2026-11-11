@@ -1,0 +1,24 @@
+﻿{
+  "configurations": [
+    {
+      "name": "STM32F103C8",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include",
+        "D:/stm32/ARM/ARMCC/include"
+      ],
+      "defines": ["USE_HAL_DRIVER", "STM32F103xB"],
+      "cStandard": "c99",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "path": ["${workspaceFolder}", "D:/stm32/ARM/ARMCC/include"],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}

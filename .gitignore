@@ -1,0 +1,24 @@
+# --- Keil MDK-ARM: 编译输出与自动生成的配置 ---
+learn_stm32cubmx/MDK-ARM/learn_stm32cubmx/
+learn_stm32cubmx/MDK-ARM/RTE/
+learn_stm32cubmx/MDK-ARM/DebugConfig/
+learn_stm32cubmx/MDK-ARM/*.lst
+learn_stm32cubmx/MDK-ARM/*.uvguix*
+
+# --- 通用编译产物 ---
+*.o
+*.crf
+*.d
+*.axf
+*.hex
+*.map
+*.lnp
+*.sct
+*.dep
+*.bak
+*.iex
+*.build_log.htm
+
+# --- 系统 / 编辑器垃圾文件 ---
+Thumbs.db
+.DS_Store
